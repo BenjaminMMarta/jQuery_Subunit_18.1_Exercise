@@ -1,0 +1,51 @@
+/* Page Title */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+/* Input Form */
+
+#movie-rating-form {
+    display: flex;
+    justify-content: center;
+}
+
+/* Input Form Inputs */
+
+#movie-title-input {
+    height: 20px;
+    width: 300px;
+}
+
+#movie-rating-input {
+    height: 20px;
+    width: 50px;
+}
+
+#form-submit-button {
+    height: 26px;
+    width: 150px;
+}
+
+/* Movie and Rating Answer Table*/
+
+#movies-and-ratings {
+    display: flex;
+    background-color: rgb(187, 177, 177);
+    margin-top: 20px;
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
