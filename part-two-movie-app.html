@@ -10,25 +10,30 @@
     <h1>MOVIE RATINGS</h1>
 
   <!--Movie Rating Form With Two Inputs and Submit Button-->
-  <div id= "movie-rating-form-container"></div>
+  <div id= "movie-rating-form-container">
+
     <form id= "movie-rating-form">
+
       <div class= "movie-input">
         <label for="movie-title-input">TITLE</label><br>
         <input type="text" id="movie-title-input" name="movie-title-input">
       </div>
+
       <div class= "movie-input">
         <label for="movie-rating-input">RATING</label><br>
         <input type="number" id="movie-rating-input" name="movie-rating-input" min="0" max="10">
       </div>
+
       <div class= "movie-input"><br>
         <input id= "form-submit-button" type="Submit" value="Submit">
       </div>
+
     </form>
+
   </div>
 
   <!--Movie Rating Results Listed Here-->
-  <div id="movies-and-ratings">
-  </div>
+  <div id="movies-and-ratings"></div>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
   <script src="part-two-movie-app.js"></script>  

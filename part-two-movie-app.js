@@ -1,5 +1,3 @@
-//Form Submitted. Append Inputs to the DOM//
-
 //'Click' Event Listener for Input Submit Button
 $('#form-submit-button').on('click', (event) => {
   //Prevent Page from Refreshing When Submit Button Clicked.
@@ -15,9 +13,9 @@ $('#form-submit-button').on('click', (event) => {
   $movieContainer.append($movieDeleteButton);
   $('#movies-and-ratings').append($movieContainer);
   
-  //'Click' Event Listener for Delete Button
+  //'Click' Event Listener for Delete Button. Removes 
   $($movieDeleteButton).on('click', (event) => {
-    $(event.target).remove($movieContainer)
+    $movieContainer.remove();
     console.log("I've been clicked");
   });
 

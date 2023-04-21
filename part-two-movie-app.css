@@ -36,10 +36,19 @@ h1 {
 
 #movies-and-ratings {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgb(187, 177, 177);
     margin-top: 20px;
     height: 40px;
 
+}
+
+.movieContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(174, 169, 162);
 }
 
 
