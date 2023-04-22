@@ -4,15 +4,23 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-size: 40px;
 }
 
 /* Input Form */
 
-#movie-rating-form {
+#movie-rating-form-container{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#movie-rating-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Input Form Inputs */
@@ -20,25 +28,34 @@ h1 {
 #movie-title-input {
     height: 20px;
     width: 300px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 2px solid black;
 }
 
 #movie-rating-input {
     height: 20px;
-    width: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 2px solid black;
 }
 
 #form-submit-button {
+    background-color: rgb(238, 228, 217);
     height: 26px;
     width: 150px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 2px solid black;
 }
 
-/* Movie and Rating Answer Table*/
+/* Movie and Rating Answer */
 
-#movies-and-ratings {
+#movie-and-rating {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(187, 177, 177);
     margin-top: 20px;
     height: 40px;
 
@@ -46,9 +63,16 @@ h1 {
 
 .movieContainer {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(174, 169, 162);
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.movieDeleteButton {
+    background-color: rgb(238, 228, 217);
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 2px solid black;
 }
 
 
